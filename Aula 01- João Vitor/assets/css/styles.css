@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sidebar-top{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #1976D2;
+    border-bottom: 5px solid white;
+    box-sizing: border-box;
+}
+
+#sidebar-left{
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right: 80%;
+    width: 20%;
+    height: 90%;
+    background-color: #2196F3;
+    border-right: 5px solid white;
+    box-sizing: border-box;
+}
+
+#content{
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    top: 10%;
+    left: 20%;
+    overflow: auto;
+    word-wrap: none;
+    background-color: #BBDEFB;
+}
+
+#company{
+    margin: 5%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+#company th, td{
+    border: 1px solid white;
+}
+
+#company th{
+    background-color: #4CAF50;
+}
+
+#company td{
+    background-color: #8BC34A;
+}
