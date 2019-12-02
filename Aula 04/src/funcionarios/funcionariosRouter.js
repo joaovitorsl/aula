@@ -11,7 +11,7 @@ router.post("/", (req, res) => {
     res.send(req.body);
 });
 
-router.delete("/:professorId", (req, res) => {
+router.delete("/:funcionarioId", (req, res) => {
     console.log(req.params);
     res.send(req.params);
 });

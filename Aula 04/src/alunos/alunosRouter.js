@@ -8,12 +8,17 @@ router.get("/", (req, res) => {
 
 router.post("/", (req, res) => {
     console.log(req.query);
-    res.send(req.query);
+    res.send(req.body);
 });
 
 router.delete("/:alunoId", (req, res) => {
+    console.log(req.params);
+    res.send(req.params);
+});
+
+router.put("/", (req, res) => {
     console.log(req.query);
-    res.send(req.query);
+    res.send(req.body);
 });
 
 module.exports = router;
