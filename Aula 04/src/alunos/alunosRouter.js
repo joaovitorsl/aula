@@ -15,3 +15,5 @@ router.delete("/:alunoId", (req, res) => {
     console.log(req.query);
     res.send(req.query);
 });
+
+module.exports = router;
