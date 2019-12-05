@@ -1,0 +1,52 @@
+body{
+    background-color: #00121e;
+}
+
+form{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    height: 33%;
+    width: 33%;
+}
+
+.form-control, .input-group-text{
+    background-color: #082336;
+    border: 2px solid #2c6187;
+    color: #2c6187;
+}
+
+.form-control{
+    border-left: 0px solid transparent;
+}
+
+.input-group-text{
+    border-right: 0px solid transparent;
+}
+
+button{
+    background-color: #39e5ab;
+    color: #00121e;
+}
+
+#textos{
+    width: 100%;
+    color: grey;
+}
+
+a{
+    color: gray;
+    font-style: italic;
+}
+
+#esqueceu{
+    float: right;
+}
+
+#esqueceu, #lembre{
+    display: inline-block;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder{
+    color: #2c6187;
+}
