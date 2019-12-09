@@ -1,4 +1,12 @@
 const mongoose = require("mongoose");
+mongoose.connect("mongodb+srv://ifpb:WMWe4NvGkISiE7ML@cluster0-m70fx.mongodb.net/test?retryWrites=true&w=majority",
+
+(err)=> {
+    if (err) { 
+        console.log("Falhou conexão");
+    }
+
+});
 const express = require("express"); 
 
 const AlunoModel = require('./model/Aluno');

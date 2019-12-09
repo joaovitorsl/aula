@@ -1,9 +1,16 @@
 const mongoose = require("mongoose");
 
 const SalaSchema = mongoose.Schema({
-    nome: String,
+    nome: {
+        type: String,
+        required: true
+    },
     bloco: String,
-    disponivel: Boolean
+
+    disponivel: {   
+        type: Boolean,
+        required: true
+    },
 },{colection:'sala'});
 
-module.exports = mongoose.model('Sala', SalaSchema);
+module.exports = mongoose.model('SalaDeAula', SalaSchema);

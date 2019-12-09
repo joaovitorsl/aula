@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
 
 const FuncionarioSchema = mongoose.Schema({
-    nome: String,
+    nome: {
+        type: String,
+        required: true
+    },
+
     setor: String,
     idade: Number,
     data: Date

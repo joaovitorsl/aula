@@ -6,6 +6,7 @@ const alunosRouter = require("./src/alunos/alunosRouter");
 const professoresRouter = require("./src/professores/professoresRouter");
 const funcionariosRouter = require("./src/funcionarios/funcionariosRouter");
 const salasDeAulaRouter = require("./src/salasdeaula/salasDeAulaRouter");
+const database = require('./src/database/main')
 
 app.use(bodyParser.json());
 app.use("/alunos", alunosRouter);
