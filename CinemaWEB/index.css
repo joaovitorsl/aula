@@ -1,0 +1,78 @@
+body {
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    background-image: url(images/fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.content, .content-sercla {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.rdp{
+    color: white;
+}
+
+.list-group{
+    padding: 4px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+.ico, .ico_3d, .ico_esp{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    width: 31px;
+    height: 14px;
+    font-size: 10;
+    margin-bottom: 0;
+}
+
+.ico_3d{
+    background-color: red;
+}
+
+.ico_esp{
+    margin-top: 13;
+}
+
+.header{
+    background-color: white;
+}
+
+#header2{
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ativo{
+    font-weight: bold;
+    color: red;
+}
+
+.content-sercla{
+    background-color: white;
+}

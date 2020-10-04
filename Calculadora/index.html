@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="https://img.ibxk.com.br/2016/4/programas/15124812150501048.png" height="40" width="40">
+            Calculadora
+        </div>
+        <center>
+            <div class="content">
+                <form>
+                    <input id="number1" type="text" value=""> <br>
+                    <input class="num" type="button" value="1" onclick="expressao(1)">
+                    <input class="num" type="button" value="2" onclick="expressao(2)">
+                    <input class="num" type="button" value="3" onclick="expressao(3)">
+                    <input class="a" type="button" value="+" onclick='expressao("+")'><br> 
+                    <input class="num" type="button" value="4" onclick="expressao(4)">
+                    <input class="num" type="button" value="5" onclick="expressao(5)">
+                    <input class="num" type="button" value="6" onclick="expressao(6)">
+                    <input class="s" type="button" value="-" onclick='expressao("-")'><br>
+                    <input class="num" type="button" value="7" onclick="expressao(7)">
+                    <input class="num" type="button" value="8" onclick="expressao(8)">
+                    <input class="num" type="button" value="9" onclick="expressao(9)">
+                    <input class="m" type="button" value="*" onclick='expressao("*")'><br>
+                    <input class="num" type="button" value="0" onclick="expressao(0)">
+                    <input class="i" type="button" value="=" onclick="expressao(res())">
+                    <input class="d" type="button" value="/" onclick='expressao("/")'>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

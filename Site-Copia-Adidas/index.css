@@ -1,0 +1,75 @@
+body{
+margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        'logo header1'
+        'logo header2'
+        'dest dest';
+    grid-template-columns: 178px 1fr;
+    grid-template-rows: 33px 47px 505px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.logo{
+    background-color: black;
+    grid-area: logo;
+    display: flex;
+    padding-left: 84px;
+    padding-top: 17px;
+}
+
+.header1{
+    background: linear-gradient(90deg,#000 30%,transparent 50%),linear-gradient(180deg,#000 0,#363738);
+    font-size: 11px;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 70px;
+}
+
+.header2{
+    background-color: black;
+    color: white;
+    font-size: 12;
+    padding-top: 11px;
+}
+
+.content{
+    grid-area: dest;
+    display: flex;
+    background-image: url(imagens/maluma.jpg);
+    background-size: 100%;
+    margin: 1000;
+}
+
+a{
+    color: white;
+}
+
+.m1{
+    margin: 10px;
+}
+
+.m1 img{
+    padding-left: 8px;
+}
+
+.m2{
+    margin: 2px;
+}
+
+.card{
+    padding-top: 125px;
+    padding-left: 150px; 
+    background-color: transparent;
+}
+
+h1{
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.card img{
+    padding-left: 21px;
+}

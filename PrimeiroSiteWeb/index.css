@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'sidebar content';
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 50px 1fr;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: black;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.side-bar {
+    background-color: rgb(63, 63, 63);
+    padding: 15px;
+    color: white;
+}
+
+.content {
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: rgb(107, 107, 107);
+    width: 1fr;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.side-bar li {
+    margin-bottom: 3px;
+    list-style-type: none;
+}
+
+.side-bar ul {
+    padding: 0;
+}
+
+.header img{
+    margin-left: 6px;
+}
+
+.card img {
+    margin-right: 15px;
+}
